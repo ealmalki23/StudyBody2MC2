@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		7C118EDB2B1CB23800B931A7 /* StudyBody2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C118EDA2B1CB23800B931A7 /* StudyBody2App.swift */; };
-		7C118EDD2B1CB23800B931A7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C118EDC2B1CB23800B931A7 /* ContentView.swift */; };
+		7C118EDD2B1CB23800B931A7 /* winView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C118EDC2B1CB23800B931A7 /* winView.swift */; };
 		7C118EDF2B1CB23900B931A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C118EDE2B1CB23900B931A7 /* Assets.xcassets */; };
 		7C118EE22B1CB23900B931A7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C118EE12B1CB23900B931A7 /* Preview Assets.xcassets */; };
 		7C118EEC2B1CB23900B931A7 /* StudyBody2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C118EEB2B1CB23900B931A7 /* StudyBody2Tests.swift */; };
 		7C118EF62B1CB23900B931A7 /* StudyBody2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C118EF52B1CB23900B931A7 /* StudyBody2UITests.swift */; };
 		7C118EF82B1CB23900B931A7 /* StudyBody2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C118EF72B1CB23900B931A7 /* StudyBody2UITestsLaunchTests.swift */; };
+		7C118F072B1DF18F00B931A7 /* Confitte1.mov in Resources */ = {isa = PBXBuildFile; fileRef = 7C118F062B1DF18F00B931A7 /* Confitte1.mov */; };
+		7C118F092B1E05BA00B931A7 /* Confitte2.mov in Resources */ = {isa = PBXBuildFile; fileRef = 7C118F082B1E05BA00B931A7 /* Confitte2.mov */; };
+		7C118F0B2B1E149900B931A7 /* final confitte.mov in Resources */ = {isa = PBXBuildFile; fileRef = 7C118F0A2B1E149900B931A7 /* final confitte.mov */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,7 @@
 /* Begin PBXFileReference section */
 		7C118ED72B1CB23800B931A7 /* StudyBody2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudyBody2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C118EDA2B1CB23800B931A7 /* StudyBody2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyBody2App.swift; sourceTree = "<group>"; };
-		7C118EDC2B1CB23800B931A7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7C118EDC2B1CB23800B931A7 /* winView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = winView.swift; sourceTree = "<group>"; };
 		7C118EDE2B1CB23900B931A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C118EE12B1CB23900B931A7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7C118EE72B1CB23900B931A7 /* StudyBody2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudyBody2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +47,9 @@
 		7C118EF12B1CB23900B931A7 /* StudyBody2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudyBody2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C118EF52B1CB23900B931A7 /* StudyBody2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyBody2UITests.swift; sourceTree = "<group>"; };
 		7C118EF72B1CB23900B931A7 /* StudyBody2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyBody2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7C118F062B1DF18F00B931A7 /* Confitte1.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = Confitte1.mov; path = ../../Confitte1.mov; sourceTree = "<group>"; };
+		7C118F082B1E05BA00B931A7 /* Confitte2.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = Confitte2.mov; path = ../../Confitte2.mov; sourceTree = "<group>"; };
+		7C118F0A2B1E149900B931A7 /* final confitte.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = "final confitte.mov"; path = "../../final confitte.mov"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +101,10 @@
 			isa = PBXGroup;
 			children = (
 				7C118EDA2B1CB23800B931A7 /* StudyBody2App.swift */,
-				7C118EDC2B1CB23800B931A7 /* ContentView.swift */,
+				7C118EDC2B1CB23800B931A7 /* winView.swift */,
+				7C118F0A2B1E149900B931A7 /* final confitte.mov */,
+				7C118F082B1E05BA00B931A7 /* Confitte2.mov */,
+				7C118F062B1DF18F00B931A7 /* Confitte1.mov */,
 				7C118EDE2B1CB23900B931A7 /* Assets.xcassets */,
 				7C118EE02B1CB23900B931A7 /* Preview Content */,
 			);
@@ -206,7 +215,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7C118ED22B1CB23800B931A7 /* Build configuration list for PBXProject "StudyBody2" */;
+			buildConfigurationList = 7C118ED22B1CB23800B931A7 /* Build configuration list for PBXProject "Win" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -231,8 +240,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C118F0B2B1E149900B931A7 /* final confitte.mov in Resources */,
 				7C118EE22B1CB23900B931A7 /* Preview Assets.xcassets in Resources */,
+				7C118F072B1DF18F00B931A7 /* Confitte1.mov in Resources */,
 				7C118EDF2B1CB23900B931A7 /* Assets.xcassets in Resources */,
+				7C118F092B1E05BA00B931A7 /* Confitte2.mov in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C118EDD2B1CB23800B931A7 /* ContentView.swift in Sources */,
+				7C118EDD2B1CB23800B931A7 /* winView.swift in Sources */,
 				7C118EDB2B1CB23800B931A7 /* StudyBody2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -545,7 +557,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7C118ED22B1CB23800B931A7 /* Build configuration list for PBXProject "StudyBody2" */ = {
+		7C118ED22B1CB23800B931A7 /* Build configuration list for PBXProject "Win" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7C118EF92B1CB23900B931A7 /* Debug */,
